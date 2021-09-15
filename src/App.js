@@ -1,11 +1,15 @@
 import './App.css';
+import React from 'react';
+// eslint-disable-next-line no-unused-vars
 import Calculator from './components/Calculator.js';
 
-function App() {
-  const newCalculator = new Calculator();
-  return (
-    newCalculator.render()
-  );
+class App extends React.Component {
+  render() {
+    return (
+      this.props,
+          <Calculator />
+    );
+  }
 }
 
 export default App;

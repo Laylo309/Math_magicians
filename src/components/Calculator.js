@@ -1,16 +1,17 @@
 /* eslint-disable linebreak-style */
 import React from 'react';
+import './css/calculator.css';
 
 class Calculator extends React.Component {
   render() {
     return (
+      this.props,
       <div className="calculator-grid">
         <div className="output">
           <div className="data-previous-operand" id="previous-operand"></div>
           <div className="data-current-operand" id="current-operand">0</div>
         </div>
-        <button className="data-all-clear">
-          {this.props}AC
+        <button className="data-all-clear">AC
         </button>
         <button className="data-number">+/-</button>
         <button className="data-number">%</button>
