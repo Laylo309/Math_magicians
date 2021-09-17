@@ -10,7 +10,11 @@ export default function operate(numberOne, numberTwo, operation) {
     return one.minus(two).toString();
   }
   if (operation === '*') {
-    return one.times(two).toString();
+    try {
+      return one.times(two).toString();
+    } catch (err) {
+      return "Can't multiply by 0.";
+    }
   }
   if (operation === '÷') {
     try {
