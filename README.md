@@ -1,6 +1,6 @@
 # Project Name
 
-> Caculator that helps people to do different operands.
+> Caculator that helps people to do different mathematical operations.
 
 ![screenshot](./Screenshot_1.png)
 
