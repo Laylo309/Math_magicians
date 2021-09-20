@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
 import './css/calculator.css';
-import calculate from './logic/calculate.js';
+import calculate from '../logic/calculate.js';
 
 const Calculator = () => {
   const [calculator, addState] = useState({ total: 0, next: null, operation: null });
@@ -12,7 +12,7 @@ const Calculator = () => {
     addState((prev) => calculate(prev, e.target.name));
   };
 
-  const showTotal = () => {
+  const totalAmount = () => {
     if (total === 0 && next === null) {
       return 0;
     }
@@ -28,7 +28,7 @@ const Calculator = () => {
             type="text"
             className="data-current-operand"
             id="current-operand"
-            value={showTotal() + (operation || '') + (next || '')}
+            value={totalAmount() + (operation || '') + (next || '')}
             disabled
           />
         </div>
