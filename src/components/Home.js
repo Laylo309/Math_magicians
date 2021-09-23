@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
+import './css/home.css';
 
 const Home = () => {
   const home = <div>

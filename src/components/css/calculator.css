@@ -15,9 +15,9 @@ body {
   display: grid;
   justify-content: center;
   align-content: center;
-  min-height: 100vh;
   grid-template-columns: repeat(4, 134px);
   grid-template-rows: minmax(120px, auto) repeat(5, 75px);
+  margin-top: 60px;
 }
 
 .calculator-grid > button {

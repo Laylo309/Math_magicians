@@ -1,28 +1,29 @@
+/* eslint-disable class-methods-use-this */
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './css/navbar.css';
 
 class Nav extends React.Component {
   render() {
     const linkColors = {
       color: 'white',
     };
-
     return (
-      <nav className={this.props.class}>
-        <h1 className="logo" style={linkColors}></h1>
-          <ul>
-            <li>
-              <Link to="/" style={linkColors}><li>Home</li></Link>
-            </li>
-            <li>
-              <Link to="/calculator" style={linkColors}><li>Calculator</li></Link>
-            </li>
-            <li>
-              <Link to="/quotes" style={linkColors}><li>Quotes</li></Link>
-            </li>
-          </ul>
-      </nav>
+      <nav>
+        <h1 className="nav-title" style={linkColors}>Math Magicians!</h1>
+      <ul>
+        <li>
+          <Link to="/" style={linkColors} className="link">Home</Link>
+        </li>
+        <li>
+          <Link to="/calculator" style={linkColors} className="link">Calculator</Link>
+        </li>
+        <li>
+          <Link to="/quote" style={linkColors} className="link">Quote</Link>
+        </li>
+      </ul>
+    </nav>
     );
   }
 }

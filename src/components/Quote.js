@@ -1,4 +1,5 @@
 import React from 'react';
+import './css/home.css';
 
 class Quote extends React.Component {
   render() {
