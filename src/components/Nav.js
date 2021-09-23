@@ -1,4 +1,3 @@
-/* eslint-disable class-methods-use-this */
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import { Link } from 'react-router-dom';
@@ -10,7 +9,7 @@ class Nav extends React.Component {
       color: 'white',
     };
     return (
-      <nav>
+      <nav claasName={this.props.name}>
         <h1 className="nav-title" style={linkColors}>Math Magicians!</h1>
       <ul>
         <li>
