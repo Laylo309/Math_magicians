@@ -13,8 +13,9 @@
 
 ## Live Demo
 
- COMING SOON
-<!-- [Live Demo Link](https://livedemo.com) -->
+[NETLIFY](https://app.netlify.com/sites/math-magicians-laylo309)
+[HEROKU](https://laylo309-math-magicians.herokuapp.com/)
+
 
 
 ## Getting Started
