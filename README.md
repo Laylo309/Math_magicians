@@ -1,4 +1,4 @@
-# Project Name
+# Math Magicians
 
 > Caculator that helps people to do different mathematical operations.
 
@@ -54,13 +54,14 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 App is ready to be deployed!
+
 ## Author
 
-👤 **Laylo Khodjaeva**
+👤 **Laylo**
 
-- GitHub: [@Laylo309](https://github.com/Laylo309)
-- Twitter: [@Laylo](https://twitter.com/home?lang=en)
-- LinkedIn: [LayloKhodjaeva](https://www.linkedin.com/in/laylo-khodjaeva-05a972207/)
+- GitHub: [Laylo309](https://github.com/Laylo309)
+- Twitter: [laylo_khodjaeva](https://twitter.com/laylo_khodjaeva)
+- LinkedIn: [laylo_khodjaeva](https://www.linkedin.com/in/laylo-khodjaeva/)
 
 ## 🤝 Contributing
 
